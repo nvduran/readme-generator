@@ -2,34 +2,34 @@ const generatePage = (data) => {
      return `
 # ${data.title}
 
-     [![License](https://img.shields.io/badge/License-${data.license}%202.0-blue.svg)]
+[![License](https://img.shields.io/badge/License-${data.license}%202.0-blue.svg)]
 
-     ##Table of Contents
-     * [Description](#Description)
-     * [Installation](#Installation)
-     * [Usage](#Usage)
-     * [Contributions](#Contributions)
-     * [Testing](#Testing)
-     * [Questions](#Questions)
+##Table of Contents
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributions](#Contributions)
+* [Testing](#Testing)
+* [Questions](#Questions)
 
-     ## Description
-     ${data.description}
+## Description
+${data.description}
 
-     ## Installation
-     ${data.installation}
+## Installation
+${data.installation}
 
-     ## Usage
-     ${data.usage}
+## Usage
+${data.usage}
 
-     ## Contributions
-     ${data.contribution}
+## Contributions
+${data.contribution}
 
-     ## Testing
-     ${data.test}
+## Testing
+${data.test}
 
-     ## Questions
-     Github.com/${data.github}
-     ${data.email}
+## Questions
+Github.com/${data.github}
+${data.email}
 `;
 };
 
