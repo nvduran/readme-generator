@@ -4,7 +4,7 @@ const generatePage = (data) => {
 
 ![License](https://img.shields.io/badge/License-${data.license}-green.svg)
 
-##Table of Contents
+## Table of Contents
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -29,6 +29,7 @@ ${data.test}
 
 ## Questions
 Github.com/${data.github}
+
 ${data.email}
 `;
 };
