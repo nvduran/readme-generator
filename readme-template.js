@@ -1,8 +1,16 @@
 const generatePage = (data) => {
      return `
-     ## ${data.title}
+# ${data.title}
 
      [![License](https://img.shields.io/badge/License-${data.license}%202.0-blue.svg)]
+
+     ##Table of Contents
+     * [Description](#Description)
+     * [Installation](#Installation)
+     * [Usage](#Usage)
+     * [Contributions](#Contributions)
+     * [Testing](#Testing)
+     * [Questions](#Questions)
 
      ## Description
      ${data.description}
@@ -13,13 +21,13 @@ const generatePage = (data) => {
      ## Usage
      ${data.usage}
 
-     ##Contributions
+     ## Contributions
      ${data.contribution}
 
-     ##Testing
+     ## Testing
      ${data.test}
 
-     ##Questions
+     ## Questions
      Github.com/${data.github}
      ${data.email}
 `;
