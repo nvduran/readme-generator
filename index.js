@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generatePage = require('./readme-template.js');
 
 
 const promptUser = () => {
@@ -122,11 +123,23 @@ async function start() {
      try {
           const data = await promptUser();
           console.log(data);
+          console.log(data.github);
+          makePage(data);
+
+
 
      }
      catch (err) {
           console.log(err);
      }
+};
+
+function makePage(data) {
+     fs.writeFile('generated-README.md', generatePage(data), err => {
+          if (err) throw err;
+
+          console.log('Your readme has been generated!');
+     });
 };
 
 start();
