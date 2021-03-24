@@ -84,10 +84,17 @@ const promptUser = () => {
                }
           },
           {
-               type: 'checkbox',
+               type: 'input',
                name: 'license',
-               message: 'Would you like a license listed?',
-               choices: ['Apache', 'ISC', 'MIT']
+               message: 'What licence would you like included?',
+               validate: testInput => {
+                    if (testInput) {
+                         return true;
+                    } else {
+                         console.log('Please enter your test info');
+                         return false;
+                    }
+               }
           },
           {
                type: 'input',
