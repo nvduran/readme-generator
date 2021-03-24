@@ -135,7 +135,7 @@ async function start() {
 };
 
 function makePage(data) {
-     fs.writeFile('generated-README.md', generatePage(data), err => {
+     fs.writeFile('README.md', generatePage(data), err => {
           if (err) throw err;
 
           console.log('Your readme has been generated!');
