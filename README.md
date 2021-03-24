@@ -1,32 +1,15 @@
 
-# Super cool project
+# Readme Generator
 
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Table of Contents
 * [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contributions](#Contributions)
-* [Testing](#Testing)
 * [Questions](#Questions)
 
 ## Description
-cool project is super cool 
-
-## Installation
-try installing to install
-
-## Usage
-microwave for 30 seconds
-
-## Contributions
-dont contribute, thanks
-
-## Testing
-it's already perfect, no need
+Readme Generator does just that, it generates a README.md file using the information that the user enters in via the command line. The project utilizes inquirer to gather user inputs. 
 
 ## Questions
-Github.com/usernamehere
+Github.com/nvduran
 
-email@email.com
+nvduran@gmail.com
