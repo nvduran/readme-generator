@@ -87,7 +87,7 @@ const promptUser = () => {
                type: 'checkbox',
                name: 'license',
                message: 'Would you like a license listed?',
-               choices: ['N/A', 'ISC', 'MIT']
+               choices: ['Apache', 'ISC', 'MIT']
           },
           {
                type: 'input',
