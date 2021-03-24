@@ -129,8 +129,8 @@ const promptUser = () => {
 async function start() {
      try {
           const data = await promptUser();
-          console.log(data);
-          console.log(data.github);
+          //console.log(data);
+          //console.log(data.github);
           makePage(data);
 
 

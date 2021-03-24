@@ -1,7 +1,7 @@
 
-# asd
+# Super cool project
 
-![License](https://img.shields.io/badge/License-asd-green.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Table of Contents
 * [Description](#Description)
@@ -12,21 +12,21 @@
 * [Questions](#Questions)
 
 ## Description
-asd
+cool project is super cool 
 
 ## Installation
-asd
+try installing to install
 
 ## Usage
-asd
+microwave for 30 seconds
 
 ## Contributions
-asd
+dont contribute, thanks
 
 ## Testing
-asd
+it's already perfect, no need
 
 ## Questions
-Github.com/asd
+Github.com/usernamehere
 
-asd
+email@email.com
